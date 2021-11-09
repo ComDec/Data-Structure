@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch1/linklist.cpp
+linklist.h
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch1/linklist.h
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch1/linklist.h
+cstring
+-
+iostream
+-
+

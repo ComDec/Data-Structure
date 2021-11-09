@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch3/link_queue.h
+iostream
+-
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch3/seq_queue.h
+iostream
+-
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch3/test_queue.cpp
+iostream
+-
+seq_queue.h
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch3/seq_queue.h
+link_queue.h
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch3/link_queue.h
+

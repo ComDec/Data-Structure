@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch2/legal_seq.cpp
+bits/stdc++.h
+-
+seq_stack.h
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch2/seq_stack.h
+
+C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch2/seq_stack.h
+iostream
+-
+

@@ -1,0 +1,3 @@
+C:\Users\18113\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Dynamic_Memory.dir/objects.a
+D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\Dynamic_Memory.dir/objects.a @CMakeFiles\Dynamic_Memory.dir\objects1.rsp
+D:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Dynamic_Memory.dir/objects.a -Wl,--no-whole-archive -o Dynamic_Memory.exe -Wl,--out-implib,libDynamic_Memory.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dynamic_Memory.dir\linklibs.rsp
