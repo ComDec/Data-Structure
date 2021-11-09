@@ -16,7 +16,7 @@ private:
     DataType * data;
     int maxSize;
 public:
-    priority_queue(int maxsize=100);
+    explicit priority_queue(int capacity=100);
     ~priority_queue();
     bool isEmpty();
     void enQueue(DataType x);
