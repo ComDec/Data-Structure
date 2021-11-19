@@ -1,3 +1,0 @@
-C:\Users\18113\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\copy_construt.dir/objects.a
-D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\copy_construt.dir/objects.a @CMakeFiles\copy_construt.dir\objects1.rsp
-D:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\copy_construt.dir/objects.a -Wl,--no-whole-archive -o copy_construt.exe -Wl,--out-implib,libcopy_construt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\copy_construt.dir\linklibs.rsp

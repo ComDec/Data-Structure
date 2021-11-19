@@ -66,10 +66,10 @@ RM = C:\Users\18113\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\18113\Desktop\Junior Year\Data Frame\code"
+CMAKE_SOURCE_DIR = "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\18113\Desktop\Junior Year\Data Frame\code\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" "C:\Users\18113\Desktop\Junior Year\Data Frame\code\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -335,6 +335,19 @@ Ch5_test: cmake_check_build_system
 Ch5_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch5_test.dir\build.make CMakeFiles/Ch5_test.dir/build
 .PHONY : Ch5_test/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 Ch0/Dynamic_Memory.obj: Ch0/Dynamic_Memory.cpp.obj
 
@@ -741,6 +754,33 @@ Ch3/test_queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_queue.dir\build.make CMakeFiles/test_queue.dir/Ch3/test_queue.cpp.s
 .PHONY : Ch3/test_queue.cpp.s
 
+Ch4/Test.obj: Ch4/Test.cpp.obj
+
+.PHONY : Ch4/Test.obj
+
+# target to build an object file
+Ch4/Test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Ch4/Test.cpp.obj
+.PHONY : Ch4/Test.cpp.obj
+
+Ch4/Test.i: Ch4/Test.cpp.i
+
+.PHONY : Ch4/Test.i
+
+# target to preprocess a source file
+Ch4/Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Ch4/Test.cpp.i
+.PHONY : Ch4/Test.cpp.i
+
+Ch4/Test.s: Ch4/Test.cpp.s
+
+.PHONY : Ch4/Test.s
+
+# target to generate assembly for a file
+Ch4/Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Ch4/Test.cpp.s
+.PHONY : Ch4/Test.cpp.s
+
 Ch5/Ch5_test.obj: Ch5/Ch5_test.cpp.obj
 
 .PHONY : Ch5/Ch5_test.obj
@@ -780,6 +820,7 @@ help:
 	@echo ... Ch5_test
 	@echo ... Dynamic_Memory
 	@echo ... Hash_Table
+	@echo ... Test
 	@echo ... class
 	@echo ... class_test
 	@echo ... inhertance
@@ -837,6 +878,9 @@ help:
 	@echo ... Ch3/test_queue.obj
 	@echo ... Ch3/test_queue.i
 	@echo ... Ch3/test_queue.s
+	@echo ... Ch4/Test.obj
+	@echo ... Ch4/Test.i
+	@echo ... Ch4/Test.s
 	@echo ... Ch5/Ch5_test.obj
 	@echo ... Ch5/Ch5_test.i
 	@echo ... Ch5/Ch5_test.s

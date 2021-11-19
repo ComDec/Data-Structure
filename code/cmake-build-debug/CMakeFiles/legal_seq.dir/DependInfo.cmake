@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/18113/Desktop/Junior Year/Data Frame/code/Ch2/legal_seq.cpp" "C:/Users/18113/Desktop/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/legal_seq.dir/Ch2/legal_seq.cpp.obj"
+  "C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch2/legal_seq.cpp" "C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/legal_seq.dir/Ch2/legal_seq.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

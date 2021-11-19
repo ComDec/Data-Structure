@@ -1,3 +1,0 @@
-C:\Users\18113\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.7628.27\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\CMakeCXXCompilerId.dir/objects.a
-D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\CMakeCXXCompilerId.dir/objects.a @CMakeFiles\CMakeCXXCompilerId.dir\objects1.rsp
-D:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CMakeCXXCompilerId.dir/objects.a -Wl,--no-whole-archive -o CMakeCXXCompilerId.exe -Wl,--out-implib,libCMakeCXXCompilerId.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CMakeCXXCompilerId.dir\linklibs.rsp

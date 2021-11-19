@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/Ch5/Ch5_test.cpp.obj"
-  "libtest.dll.a"
-  "test.exe"
-  "test.exe.manifest"
-  "test.pdb"
+  "CMakeFiles/Test.dir/Ch4/Test.cpp.obj"
+  "Test.exe"
+  "Test.exe.manifest"
+  "Test.pdb"
+  "libTest.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/Test.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/18113/Desktop/Junior Year/Data Frame/code
+# Install script for directory: C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/18113/Desktop/Junior Year/Data Frame/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
