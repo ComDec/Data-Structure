@@ -5,6 +5,7 @@
 #include <iostream>
 #include "priority_queue.h"
 #include "Binary_Search_Tree.h"
+#include "AVL_Tree.h"
 
 using namespace std;
 

@@ -17,19 +17,18 @@ class Search2Tree
 }TreeNode;
 
 public:
-    TreeNode *root = NULL;
     Search2Tree();
     ~Search2Tree();
     int NodeNumber();
-    DataType Visit(TreeNode *treeNode);
-    void MidOrder(TreeNode *treeNode);
-    bool BSFind(TreeNode *treeNode, DataType x);
-
-    TreeNode* BSInsert(TreeNode*treeNode, DataType x);
-    TreeNode* BSDelete(TreeNode* treeNode, DataType x);
+    virtual void MidOrder(TreeNode *treeNode);
+    virtual bool BSFind(TreeNode *treeNode, DataType x);
+    virtual TreeNode* BSInsert(TreeNode*treeNode, DataType x);
+    virtual TreeNode* BSDelete(TreeNode* treeNode, DataType x);
     TreeNode* CreateTree();
 
 private:
+    TreeNode *root;
+    DataType Visit(TreeNode *treeNode);
     DataType BSFindMin(TreeNode *treeNode);
     TreeNode* BSRootDelete(TreeNode* treeNode);
     TreeNode * CreateNodes(DataType x);
@@ -148,6 +147,7 @@ template<typename DataType>
 typename Search2Tree<DataType>::TreeNode* Search2Tree<DataType>::BSRootDelete(TreeNode *treeNode) {
     TreeNode* tempNode;
     TreeNode* delNode;
+    // if left node is empty, we let right node as the root node
     if (treeNode->left == NULL)
     {
         delNode = treeNode;
@@ -160,13 +160,15 @@ typename Search2Tree<DataType>::TreeNode* Search2Tree<DataType>::BSRootDelete(Tr
         tempNode = treeNode->left;
         delete delNode;
     }
+    // if two children nodes are existed
     else
     {
         tempNode->val = BSFindMin(treeNode->right);
         tempNode->left = treeNode->left;
+        // BSDelete function will return the root node of the tree
         tempNode->right = BSDelete(treeNode->right, tempNode->val);
     }
-
+    // return the new root node, which value equals the node we want to delete
     return tempNode;
 }
 #endif //CODE_BINARY_SEARCH_TREE_H
