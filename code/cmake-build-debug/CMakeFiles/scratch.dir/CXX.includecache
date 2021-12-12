@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch5/scratch.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+

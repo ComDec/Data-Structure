@@ -79,6 +79,7 @@ all: CMakeFiles/Dynamic_Memory.dir/all
 all: CMakeFiles/other_class_features.dir/all
 all: CMakeFiles/miscellaneous.dir/all
 all: CMakeFiles/class.dir/all
+all: CMakeFiles/scratch.dir/all
 all: CMakeFiles/linklist.dir/all
 all: CMakeFiles/object_as_function_parameters.dir/all
 all: CMakeFiles/BFS_Matrix.dir/all
@@ -88,6 +89,7 @@ all: CMakeFiles/test_queue.dir/all
 all: CMakeFiles/Hash_Table.dir/all
 all: CMakeFiles/Ch5_test.dir/all
 all: CMakeFiles/Test.dir/all
+all: CMakeFiles/Ch6_test.dir/all
 
 .PHONY : all
 
@@ -105,6 +107,7 @@ clean: CMakeFiles/Dynamic_Memory.dir/clean
 clean: CMakeFiles/other_class_features.dir/clean
 clean: CMakeFiles/miscellaneous.dir/clean
 clean: CMakeFiles/class.dir/clean
+clean: CMakeFiles/scratch.dir/clean
 clean: CMakeFiles/linklist.dir/clean
 clean: CMakeFiles/object_as_function_parameters.dir/clean
 clean: CMakeFiles/BFS_Matrix.dir/clean
@@ -114,6 +117,7 @@ clean: CMakeFiles/test_queue.dir/clean
 clean: CMakeFiles/Hash_Table.dir/clean
 clean: CMakeFiles/Ch5_test.dir/clean
 clean: CMakeFiles/Test.dir/clean
+clean: CMakeFiles/Ch6_test.dir/clean
 
 .PHONY : clean
 
@@ -124,7 +128,7 @@ clean: CMakeFiles/Test.dir/clean
 CMakeFiles/list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target list"
 .PHONY : CMakeFiles/list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +155,7 @@ CMakeFiles/list.dir/clean:
 CMakeFiles/max_subsqeuence_sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\max_subsqeuence_sum.dir\build.make CMakeFiles/max_subsqeuence_sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\max_subsqeuence_sum.dir\build.make CMakeFiles/max_subsqeuence_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target max_subsqeuence_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target max_subsqeuence_sum"
 .PHONY : CMakeFiles/max_subsqeuence_sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -178,7 +182,7 @@ CMakeFiles/max_subsqeuence_sum.dir/clean:
 CMakeFiles/inhertance.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inhertance.dir\build.make CMakeFiles/inhertance.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inhertance.dir\build.make CMakeFiles/inhertance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target inhertance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target inhertance"
 .PHONY : CMakeFiles/inhertance.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,7 +209,7 @@ CMakeFiles/inhertance.dir/clean:
 CMakeFiles/init_list.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\init_list.dir\build.make CMakeFiles/init_list.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\init_list.dir\build.make CMakeFiles/init_list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target init_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target init_list"
 .PHONY : CMakeFiles/init_list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -232,7 +236,7 @@ CMakeFiles/init_list.dir/clean:
 CMakeFiles/Dynamic_Memory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Memory.dir\build.make CMakeFiles/Dynamic_Memory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Dynamic_Memory.dir\build.make CMakeFiles/Dynamic_Memory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target Dynamic_Memory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target Dynamic_Memory"
 .PHONY : CMakeFiles/Dynamic_Memory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +263,7 @@ CMakeFiles/Dynamic_Memory.dir/clean:
 CMakeFiles/other_class_features.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\other_class_features.dir\build.make CMakeFiles/other_class_features.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\other_class_features.dir\build.make CMakeFiles/other_class_features.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target other_class_features"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target other_class_features"
 .PHONY : CMakeFiles/other_class_features.dir/all
 
 # Build rule for subdir invocation for target.
@@ -286,7 +290,7 @@ CMakeFiles/other_class_features.dir/clean:
 CMakeFiles/miscellaneous.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target miscellaneous"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target miscellaneous"
 .PHONY : CMakeFiles/miscellaneous.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,7 +317,7 @@ CMakeFiles/miscellaneous.dir/clean:
 CMakeFiles/class.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class.dir\build.make CMakeFiles/class.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class.dir\build.make CMakeFiles/class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target class"
 .PHONY : CMakeFiles/class.dir/all
 
 # Build rule for subdir invocation for target.
@@ -334,13 +338,40 @@ CMakeFiles/class.dir/clean:
 .PHONY : CMakeFiles/class.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/scratch.dir
+
+# All Build rule for target.
+CMakeFiles/scratch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=35,36 "Built target scratch"
+.PHONY : CMakeFiles/scratch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/scratch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/scratch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/scratch.dir/rule
+
+# Convenience name for target.
+scratch: CMakeFiles/scratch.dir/rule
+
+.PHONY : scratch
+
+# clean rule for target.
+CMakeFiles/scratch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/clean
+.PHONY : CMakeFiles/scratch.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linklist.dir
 
 # All Build rule for target.
 CMakeFiles/linklist.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linklist.dir\build.make CMakeFiles/linklist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target linklist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target linklist"
 .PHONY : CMakeFiles/linklist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -367,7 +398,7 @@ CMakeFiles/linklist.dir/clean:
 CMakeFiles/object_as_function_parameters.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\object_as_function_parameters.dir\build.make CMakeFiles/object_as_function_parameters.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\object_as_function_parameters.dir\build.make CMakeFiles/object_as_function_parameters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target object_as_function_parameters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target object_as_function_parameters"
 .PHONY : CMakeFiles/object_as_function_parameters.dir/all
 
 # Build rule for subdir invocation for target.
@@ -421,7 +452,7 @@ CMakeFiles/BFS_Matrix.dir/clean:
 CMakeFiles/legal_seq.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\legal_seq.dir\build.make CMakeFiles/legal_seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\legal_seq.dir\build.make CMakeFiles/legal_seq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target legal_seq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target legal_seq"
 .PHONY : CMakeFiles/legal_seq.dir/all
 
 # Build rule for subdir invocation for target.
@@ -448,7 +479,7 @@ CMakeFiles/legal_seq.dir/clean:
 CMakeFiles/class_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_test.dir\build.make CMakeFiles/class_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_test.dir\build.make CMakeFiles/class_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target class_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target class_test"
 .PHONY : CMakeFiles/class_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -475,7 +506,7 @@ CMakeFiles/class_test.dir/clean:
 CMakeFiles/test_queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_queue.dir\build.make CMakeFiles/test_queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_queue.dir\build.make CMakeFiles/test_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target test_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=37,38 "Built target test_queue"
 .PHONY : CMakeFiles/test_queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -502,7 +533,7 @@ CMakeFiles/test_queue.dir/clean:
 CMakeFiles/Hash_Table.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash_Table.dir\build.make CMakeFiles/Hash_Table.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hash_Table.dir\build.make CMakeFiles/Hash_Table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target Hash_Table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target Hash_Table"
 .PHONY : CMakeFiles/Hash_Table.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +587,7 @@ CMakeFiles/Ch5_test.dir/clean:
 CMakeFiles/Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -575,6 +606,33 @@ Test: CMakeFiles/Test.dir/rule
 CMakeFiles/Test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
 .PHONY : CMakeFiles/Test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ch6_test.dir
+
+# All Build rule for target.
+CMakeFiles/Ch6_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target Ch6_test"
+.PHONY : CMakeFiles/Ch6_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ch6_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Ch6_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\18113\Desktop\Uni\Junior Year\Data Frame\code\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ch6_test.dir/rule
+
+# Convenience name for target.
+Ch6_test: CMakeFiles/Ch6_test.dir/rule
+
+.PHONY : Ch6_test
+
+# clean rule for target.
+CMakeFiles/Ch6_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/clean
+.PHONY : CMakeFiles/Ch6_test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

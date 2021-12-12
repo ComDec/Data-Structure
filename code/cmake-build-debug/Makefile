@@ -233,6 +233,19 @@ class/fast:
 .PHONY : class/fast
 
 #=============================================================================
+# Target rules for targets named scratch
+
+# Build rule for target.
+scratch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 scratch
+.PHONY : scratch
+
+# fast build rule for target.
+scratch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/build
+.PHONY : scratch/fast
+
+#=============================================================================
 # Target rules for targets named linklist
 
 # Build rule for target.
@@ -348,6 +361,19 @@ Test: cmake_check_build_system
 Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
+
+#=============================================================================
+# Target rules for targets named Ch6_test
+
+# Build rule for target.
+Ch6_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Ch6_test
+.PHONY : Ch6_test
+
+# fast build rule for target.
+Ch6_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/build
+.PHONY : Ch6_test/fast
 
 Ch0/Dynamic_Memory.obj: Ch0/Dynamic_Memory.cpp.obj
 
@@ -808,6 +834,60 @@ Ch5/Ch5_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch5_test.dir\build.make CMakeFiles/Ch5_test.dir/Ch5/Ch5_test.cpp.s
 .PHONY : Ch5/Ch5_test.cpp.s
 
+Ch5/scratch.obj: Ch5/scratch.cpp.obj
+
+.PHONY : Ch5/scratch.obj
+
+# target to build an object file
+Ch5/scratch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/Ch5/scratch.cpp.obj
+.PHONY : Ch5/scratch.cpp.obj
+
+Ch5/scratch.i: Ch5/scratch.cpp.i
+
+.PHONY : Ch5/scratch.i
+
+# target to preprocess a source file
+Ch5/scratch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/Ch5/scratch.cpp.i
+.PHONY : Ch5/scratch.cpp.i
+
+Ch5/scratch.s: Ch5/scratch.cpp.s
+
+.PHONY : Ch5/scratch.s
+
+# target to generate assembly for a file
+Ch5/scratch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\scratch.dir\build.make CMakeFiles/scratch.dir/Ch5/scratch.cpp.s
+.PHONY : Ch5/scratch.cpp.s
+
+Ch6/Ch6_test.obj: Ch6/Ch6_test.cpp.obj
+
+.PHONY : Ch6/Ch6_test.obj
+
+# target to build an object file
+Ch6/Ch6_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/Ch6/Ch6_test.cpp.obj
+.PHONY : Ch6/Ch6_test.cpp.obj
+
+Ch6/Ch6_test.i: Ch6/Ch6_test.cpp.i
+
+.PHONY : Ch6/Ch6_test.i
+
+# target to preprocess a source file
+Ch6/Ch6_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/Ch6/Ch6_test.cpp.i
+.PHONY : Ch6/Ch6_test.cpp.i
+
+Ch6/Ch6_test.s: Ch6/Ch6_test.cpp.s
+
+.PHONY : Ch6/Ch6_test.s
+
+# target to generate assembly for a file
+Ch6/Ch6_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Ch6_test.dir\build.make CMakeFiles/Ch6_test.dir/Ch6/Ch6_test.cpp.s
+.PHONY : Ch6/Ch6_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -818,6 +898,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BFS_Matrix
 	@echo ... Ch5_test
+	@echo ... Ch6_test
 	@echo ... Dynamic_Memory
 	@echo ... Hash_Table
 	@echo ... Test
@@ -832,6 +913,7 @@ help:
 	@echo ... miscellaneous
 	@echo ... object_as_function_parameters
 	@echo ... other_class_features
+	@echo ... scratch
 	@echo ... test_queue
 	@echo ... Ch0/Dynamic_Memory.obj
 	@echo ... Ch0/Dynamic_Memory.i
@@ -884,6 +966,12 @@ help:
 	@echo ... Ch5/Ch5_test.obj
 	@echo ... Ch5/Ch5_test.i
 	@echo ... Ch5/Ch5_test.s
+	@echo ... Ch5/scratch.obj
+	@echo ... Ch5/scratch.i
+	@echo ... Ch5/scratch.s
+	@echo ... Ch6/Ch6_test.obj
+	@echo ... Ch6/Ch6_test.i
+	@echo ... Ch6/Ch6_test.s
 .PHONY : help
 
 

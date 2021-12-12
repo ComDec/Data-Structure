@@ -22,3 +22,6 @@ add_executable(BFS_Matrix Ch3/BFS_Matrix.cpp)
 add_executable(Hash_Table Ch3/Hash_Table.cpp)
 add_executable(Ch5_test Ch5/Ch5_test.cpp)
 add_executable(Test Ch4/Test.cpp)
+add_executable(scratch Ch5/scratch.cpp)
+
+add_executable(Ch6_test Ch6/Ch6_test.cpp)

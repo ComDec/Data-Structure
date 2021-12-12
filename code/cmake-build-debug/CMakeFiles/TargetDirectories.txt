@@ -6,6 +6,7 @@ C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFi
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/other_class_features.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/miscellaneous.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/class.dir
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/scratch.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/linklist.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/object_as_function_parameters.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/BFS_Matrix.dir
@@ -15,5 +16,6 @@ C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFi
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/Hash_Table.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/Ch5_test.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/Test.dir
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/Ch6_test.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

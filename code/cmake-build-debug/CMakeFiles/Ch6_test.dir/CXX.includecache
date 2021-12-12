@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch6/Ch6_test.cpp
+iostream
+-
+sort.h
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch6/sort.h
+time.h
+-
+
+C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch6/sort.h
+iostream
+-
+algorithm
+-
+random
+-
+

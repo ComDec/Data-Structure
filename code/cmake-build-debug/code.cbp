@@ -353,6 +353,48 @@
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="scratch">
+				<Option output="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/scratch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 scratch"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scratch/fast">
+				<Option output="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/scratch.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 scratch/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="linklist">
 				<Option output="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/linklist.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
@@ -731,6 +773,48 @@
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Ch6_test">
+				<Option output="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Ch6_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ch6_test"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ch6_test/fast">
+				<Option output="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Ch6_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ch6_test/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/cmake-build-debug"/>
 				<Option type="4"/>
@@ -805,6 +889,12 @@
 		</Unit>
 		<Unit filename="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch5/Ch5_test.cpp">
 			<Option target="Ch5_test"/>
+		</Unit>
+		<Unit filename="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch5/scratch.cpp">
+			<Option target="scratch"/>
+		</Unit>
+		<Unit filename="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/Ch6/Ch6_test.cpp">
+			<Option target="Ch6_test"/>
 		</Unit>
 		<Unit filename="C:/Users/18113/Desktop/Uni/Junior Year/Data Frame/code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
