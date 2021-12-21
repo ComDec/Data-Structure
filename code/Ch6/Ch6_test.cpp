@@ -33,6 +33,15 @@ int main()
 //    Sorter.ShellSort(gap);
 //    Sorter.display();
 
+//    // Quick Sort
+//    Sorter.QuickSort();
+//    Sorter.display();
+
+      // Merge Sort
+      Sorter.MergeSort();
+      Sorter.display();
+
+
 
 
     return 0;

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/object_as_function_parameters.dir/Ch0/object_as_function_parameters.cpp.obj"
+  "CMakeFiles/object_as_function_parameters.dir/Ch0/object_as_function_parameters.cpp.obj.d"
   "libobject_as_function_parameters.dll.a"
   "object_as_function_parameters.exe"
   "object_as_function_parameters.exe.manifest"

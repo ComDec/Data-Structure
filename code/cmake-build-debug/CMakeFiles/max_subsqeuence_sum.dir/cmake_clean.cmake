@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/max_subsqeuence_sum.dir/Ch1/max_subsqeuence_sum.cpp.obj"
+  "CMakeFiles/max_subsqeuence_sum.dir/Ch1/max_subsqeuence_sum.cpp.obj.d"
   "libmax_subsqeuence_sum.dll.a"
   "max_subsqeuence_sum.exe"
   "max_subsqeuence_sum.exe.manifest"

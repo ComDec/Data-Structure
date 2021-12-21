@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/other_class_features.dir/Ch0/other_class_features.cpp.obj"
+  "CMakeFiles/other_class_features.dir/Ch0/other_class_features.cpp.obj.d"
   "libother_class_features.dll.a"
   "other_class_features.exe"
   "other_class_features.exe.manifest"

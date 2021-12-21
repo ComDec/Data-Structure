@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scratch.dir/Ch5/scratch.cpp.obj"
+  "CMakeFiles/scratch.dir/Ch5/scratch.cpp.obj.d"
   "libscratch.dll.a"
   "scratch.exe"
   "scratch.exe.manifest"

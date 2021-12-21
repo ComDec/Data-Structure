@@ -12,11 +12,11 @@ template<class DataType>
 class SORT
 {
 public:
+    DataType* data = new DataType[200000];
     SORT(DataType *array);
     ~SORT();
     void display();
     int GetLength();
-    void Swap(DataType &x, DataType &y);
     void BubbleSort();
     void SelectSort();
     void ShellSort(int gap = 2);
@@ -26,12 +26,13 @@ public:
     void InsertSort();
     void CountSort();
     void BaseSort();
+    void HeapSort();
 
 
 private:
-    DataType* data = new DataType[200000];
-
-    void begin(DataType *pType);
+    void Swap(DataType &x, DataType &y);
+    void QuickSortCore(DataType* array, int n);
+    void MergeSortCore(DataType* array, int begin, int end);
 };
 
 template<typename DataType>
@@ -156,6 +157,7 @@ void SORT<DataType>::ShellSort(int *gap) {
                     break;
 
             }
+            // outside the j loop, stop change location
             data[j+gap[k]] = temp;
         }
         k++;
@@ -163,6 +165,72 @@ void SORT<DataType>::ShellSort(int *gap) {
 
 }
 
+template<typename DataType>
+void SORT<DataType>::QuickSort() {
+    QuickSortCore(data, GetLength());
+}
 
+
+template<typename DataType>
+void SORT<DataType>::QuickSortCore(DataType* array, int n) {
+    if (n<2)
+        return;
+    int i,j;
+    int pivot = array[n/2];
+    // Get all the elements, there are more than one elements
+    // that bigger or smaller than pivot
+    for(i=0,j=n-1;;i++,j--)
+    {
+        // Find the elements that bigger than pivot
+        while(array[i]<pivot)
+            i++;
+        // Find the elements that smaller than pivot
+        while(array[j]>pivot)
+            j--;
+        if (i>=j)
+            break;
+        Swap(array[i],array[j]);
+    }
+
+    QuickSortCore(array, i);
+    QuickSortCore((array + i), n - i);
+}
+
+template<typename DataType>
+void SORT<DataType>::MergeSort() {
+    MergeSortCore(data,0,GetLength()-1);
+}
+
+template<typename DataType>
+void SORT<DataType>::MergeSortCore(DataType* array, int begin, int end) {
+    auto* temp = new DataType[end-begin+1];
+    int lp, rp, p, middle;
+    if (begin >= end)
+        return;
+    middle = (begin+end) / 2;
+    MergeSortCore(array, begin, middle);
+    MergeSortCore(array, (middle+1), end);
+    lp = begin;
+    rp = middle+1;
+    p = 0;
+    while(lp <= middle || rp <= end)
+    {
+        if (lp > middle)
+            temp[p++] = array[rp++];
+        else if (rp > end)
+            temp[p++] = array[lp++];
+        else
+        {
+            if (array[lp] <= array[rp])
+                temp[p++] = array[lp++];
+            else
+                temp[p++] = array[rp++];
+        }
+    }
+    for (int i=0; i<end-begin+1; i++)
+        array[begin+i] = temp[i];
+
+    delete[] temp;
+}
 
 #endif //CODE_SORT_H

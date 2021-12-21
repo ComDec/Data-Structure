@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inhertance.dir/Ch0/inhertance.cpp.obj"
+  "CMakeFiles/inhertance.dir/Ch0/inhertance.cpp.obj.d"
   "inhertance.exe"
   "inhertance.exe.manifest"
   "inhertance.pdb"

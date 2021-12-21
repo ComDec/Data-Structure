@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Dynamic_Memory.dir/Ch0/Dynamic_Memory.cpp.obj"
+  "CMakeFiles/Dynamic_Memory.dir/Ch0/Dynamic_Memory.cpp.obj.d"
   "Dynamic_Memory.exe"
   "Dynamic_Memory.exe.manifest"
   "Dynamic_Memory.pdb"

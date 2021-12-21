@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hash_Table.dir/Ch3/Hash_Table.cpp.obj"
+  "CMakeFiles/Hash_Table.dir/Ch3/Hash_Table.cpp.obj.d"
   "Hash_Table.exe"
   "Hash_Table.exe.manifest"
   "Hash_Table.pdb"

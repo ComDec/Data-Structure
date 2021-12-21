@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/init_list.dir/Ch0/init_list.cpp.obj"
+  "CMakeFiles/init_list.dir/Ch0/init_list.cpp.obj.d"
   "init_list.exe"
   "init_list.exe.manifest"
   "init_list.pdb"

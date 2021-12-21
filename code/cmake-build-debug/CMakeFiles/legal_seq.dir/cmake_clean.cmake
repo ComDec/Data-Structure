@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/legal_seq.dir/Ch2/legal_seq.cpp.obj"
+  "CMakeFiles/legal_seq.dir/Ch2/legal_seq.cpp.obj.d"
   "legal_seq.exe"
   "legal_seq.exe.manifest"
   "legal_seq.pdb"
